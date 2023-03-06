@@ -1,14 +1,15 @@
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
+import ProductsScreen from "./screens/ProductsScreen";
 
 function App() {
   return (
     <div className=''>
-        <Navbar />
-    
+      <Navbar />
+
       <Routes>
-       
+        <Route path='/products' element={<ProductsScreen />} />
       </Routes>
     </div>
   );
