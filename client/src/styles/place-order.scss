@@ -1,0 +1,14 @@
+.single-item {
+  height: 50px;
+  
+  .order-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+}
+.single-row{
+   box-shadow: 3px 1.5px 3px rgba(0, 0, 0, 0.1);
+   margin-bottom: 1rem;
+   
+}
